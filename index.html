@@ -55,8 +55,8 @@
                 <form class="form-inline">
                     <div class="form-row">
                         <div class="form-group col-sm-4">
-                                <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                                <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                            <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
                         </div>
                         <div class="form-group col-sm-4">
                             <label class="sr-only" for="exampleInputPassword3">Password</label>
@@ -175,7 +175,7 @@
                                         src="img/uthappizza.png" alt="uthappizza">
                                     <div class="carousel-caption d-none d-md-block">
                                         <h2>Uthappizza <span class="badge badge-danger">HOT</span> 
-                                            <span class="badge badge-pill badge-secondary">$4.99</span> </h2>
+                                            <span class="badge badge-pill badge-default">$4.99</span> </h2>
                                             <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, 
                                                 topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, 
                                                 Guntur chillies and Buffalo Paneer.
@@ -219,7 +219,7 @@
                             </a>
                             <!-- <div class="btn btn-group" id="carouselButton"> -->
                             <button class="btn btn-danger btn-sm" id="carouselButton">
-                                <span id="carousel-button" class="fa fa-pause"></span>
+                                <span id="carousel-button-icon" class="fa fa-pause"></span>
                             </button>
                         </div>
                     </div>
@@ -396,8 +396,8 @@
 
     <!-- <script>
         $(document).ready(function() {
-    $('#mycarousel').carousel({ interval: 2000 });
-    $('#carouselButton').click(function() {
+        $('#mycarousel').carousel({ interval: 2000 });
+        $('#carouselButton').click(function() {
         if ($('#carouselButton').children('span').hasClass('fa-pause')) {
             $('#mycarousel').carousel('pause');
             $('#carouselButton').children('span').removeClass('fa-pause');
